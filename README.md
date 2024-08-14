@@ -6,7 +6,7 @@
   <!-- <a href="https://flywaymigrationspock.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">FlyWay Migrations Pock</h1>
+<h1 align="center">FlyWay Migrations</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/flyway-migrations-pock?color=56BEB8">
@@ -33,42 +33,39 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Funcionalidades</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requisitos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Iniciando aplicação</a> &#xa0; | &#xa0;
+  <a href="https://github.com/leandroJava67" target="_blank">Criador</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Sobre ##
 
-Describe your project
+Pock feita em java, utilizando spring boot e a biblioteca flyway.
 
-## :sparkles: Features ##
+## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Conexão com banco de dados 1;\
+:heavy_check_mark: Criação de migrations 2;\
 
-## :rocket: Technologies ##
+## :rocket: Tecnologias ##
 
-The following tools were used in this project:
+As seguintes ferramentas foram utilizadas nesse projeto.
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Java](https://openjdk.org/)
+- [Spring boot](https://spring.io/projects/spring-boot)
+- [Flyway](https://www.red-gate.com/products/flyway/community/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requisitos ##
+1 - Antes de iniciar :checkered_flag:, você precisa ter o [Maven](https://maven.apache.org/) instalado e o JDK versão 17 [JDK](https://jdk.java.net/archive/)
+2 - Configurar o [MAVEN_HOME](https://medium.com/beelabacademy/configurando-vari%C3%A1veis-de-ambiente-java-home-e-maven-home-no-windows-e-unix-d9461f783c26) e [JAVA_HOME](https://www.baeldung.com/linux/path-variable)
+.
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
+## :checkered_flag: Iniciando aplicação ##
 
 ```bash
 # Clone this project
@@ -78,21 +75,16 @@ $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/flyway-migrations-pock
 $ cd flyway-migrations-pock
 
 # Install dependencies
-$ yarn
+$ mvn clean install
 
 # Run the project
-$ yarn start
+$ mvn spring-boot:run
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:8080>
 ```
 
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Feito com carinho :heart: por <a href="https://github.com/leandroJava67" target="_blank">Leandro de melo</a>
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">Voltar para o inicio</a>
