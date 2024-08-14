@@ -61,7 +61,7 @@ As seguintes ferramentas foram utilizadas nesse projeto.
 - [Flyway](https://www.red-gate.com/products/flyway/community/)
 
 ## :white_check_mark: Requisitos ##
-1 - Antes de iniciar :checkered_flag:, você precisa ter o [Maven](https://maven.apache.org/) instalado e o JDK versão 17 [JDK](https://jdk.java.net/archive/)
+1 - Antes de iniciar :checkered_flag:, você precisa ter o [Maven](https://maven.apache.org/) instalado e o JDK versão 17 [JDK](https://jdk.java.net/archive/) ;\
 2 - Configurar o [MAVEN_HOME](https://medium.com/beelabacademy/configurando-vari%C3%A1veis-de-ambiente-java-home-e-maven-home-no-windows-e-unix-d9461f783c26) e [JAVA_HOME](https://www.baeldung.com/linux/path-variable)
 .
 
