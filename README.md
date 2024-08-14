@@ -49,8 +49,8 @@ Pock feita em java, utilizando spring boot e a biblioteca flyway.
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Conexão com banco de dados 1
-:heavy_check_mark: Criação de migrations 2
+:heavy_check_mark: Conexão com banco de dados 1;\
+:heavy_check_mark: Criação de migrations 2;\
 
 ## :rocket: Tecnologias ##
 
